@@ -3,7 +3,7 @@ import glob
 import os
 
 # Specify the directory where all topic CSV files are stored
-csv_files_path = r'C:\\Users\shrey\\OneDrive\\Documents\\githubscraping\\scrapedtopicscsv'  # Use raw string for Windows path
+csv_files_path = r'Path to the scraped csv files'  # Use raw string for Windows path
 
 # Use glob to get all CSV file paths in the directory
 all_csv_files = glob.glob(os.path.join(csv_files_path, '*.xls'))
