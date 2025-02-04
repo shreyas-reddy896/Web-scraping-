@@ -4,8 +4,8 @@ import os
 import openpyxl
 
 # Define paths
-csv_files_path = r'C:\\Users\\shrey\\OneDrive\\Documents\\githubscraping\\scrapedtopicscsv'
-output_file = 'top_repositories_per_topic1.xlsx'
+csv_files_path = r'Path to scrapedtopics csv'
+output_file = 'top_repositories_per_topic1.xlsx'#new xlsx file is created
 
 # Get list of all CSV files in the directory
 csv_files = glob.glob(os.path.join(csv_files_path, '*.xls'))
